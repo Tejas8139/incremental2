@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to IPL</h1>
+    @Html.ActionLink("Add","Create","Player")
+
+    @Html.ActionLink("List","List","Player")
+
+    @Html.ActionLink("Add Team", "Create", "Team")
+
+     @Html.ActionLink("List Team", "Index", "Team")
+
+</div>
